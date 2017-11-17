@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CityMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.City">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="code" jdbcType="INTEGER" property="code" />
+    <result column="reg_code" jdbcType="VARCHAR" property="regCode" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="area_id" jdbcType="BIGINT" property="areaId" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="cuid" jdbcType="BIGINT" property="cuid" />
+    <result column="muid" jdbcType="BIGINT" property="muid" />
+    <result column="created" jdbcType="TIMESTAMP" property="created" />
+    <result column="modified" jdbcType="TIMESTAMP" property="modified" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="dept_id" jdbcType="BIGINT" property="deptId" />
+    <result column="dept_code" jdbcType="VARCHAR" property="deptCode" />
+    <result column="dept_pcode" jdbcType="VARCHAR" property="deptPcode" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+</mapper>
